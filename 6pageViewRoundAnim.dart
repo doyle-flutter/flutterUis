@@ -193,10 +193,10 @@ class _Ads2PageState extends State<Ads2Page> {
   Future<double> outIn() async{
     int i = math.Random.secure().nextInt(4);
     switch(i){
-      case 0: return 0.30; break;
-      case 1: return 0.20; break;
-      case 2: return 0.225; break;
-      case 3: return 0.25; break;
+      case 0: return 0.45; break;
+      case 1: return 0.40; break;
+      case 2: return 0.35; break;
+      case 3: return 0.30; break;
     }
   }
 
@@ -251,8 +251,8 @@ class _Ads2PageState extends State<Ads2Page> {
       color: Colors.black,
       child: Center(
         child: Container(
-          width: MediaQuery.of(context).size.width*0.30,
-          height: MediaQuery.of(context).size.width*0.30,
+          width: MediaQuery.of(context).size.width*0.50,
+          height: MediaQuery.of(context).size.width*0.50,
           child: Stack(
             children: <Widget>[
               Positioned(
@@ -267,10 +267,10 @@ class _Ads2PageState extends State<Ads2Page> {
                     decoration: BoxDecoration(
                       color: this.changeColor1,
                       borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                        topLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
                         bottomLeft: Radius.circular(MediaQuery.of(context).size.width * this.changeWidth1),
-                        bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                        topRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                        bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                        topRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                       )
                     ),
                   ),
@@ -289,9 +289,9 @@ class _Ads2PageState extends State<Ads2Page> {
                       color: this.changeColor2,
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(MediaQuery.of(context).size.width * this.changeWidth2),
-                        bottomLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                        bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                        topRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                        bottomLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                        bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                        topRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                       )
                     ),
                   ),
@@ -309,9 +309,9 @@ class _Ads2PageState extends State<Ads2Page> {
                     decoration: BoxDecoration(
                       color: this.changeColor3,
                       borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                        bottomLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                        bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                        topLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                        bottomLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                        bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                         topRight: Radius.circular(MediaQuery.of(context).size.width * this.changeWidth3),
                       )
                     ),
@@ -330,10 +330,10 @@ class _Ads2PageState extends State<Ads2Page> {
                     decoration: BoxDecoration(
                       color: this.changeColor4,
                       borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                        bottomLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                        topLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                        bottomLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
                         bottomRight: Radius.circular(MediaQuery.of(context).size.width * this.changeWidth4),
-                        topRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                        topRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                       )
                     ),
                   ),
@@ -353,10 +353,10 @@ class _Ads2PageState extends State<Ads2Page> {
                       decoration: BoxDecoration(
                         color: this.changeColor1,
                         borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                          topLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
                           bottomLeft: Radius.circular(MediaQuery.of(context).size.width * this.changeWidth1),
-                          bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                          topRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                          bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                          topRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                         )
                       ),
                     ),
@@ -377,10 +377,10 @@ class _Ads2PageState extends State<Ads2Page> {
                       decoration: BoxDecoration(
                         color: this.changeColor1,
                         borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                          topLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
                           bottomLeft: Radius.circular(MediaQuery.of(context).size.width * this.changeWidth1),
-                          bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                          topRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                          bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                          topRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                         )
                       ),
                     ),
@@ -401,10 +401,10 @@ class _Ads2PageState extends State<Ads2Page> {
                       decoration: BoxDecoration(
                         color: this.changeColor2,
                         borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                          topLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
                           bottomLeft: Radius.circular(MediaQuery.of(context).size.width * this.changeWidth2),
-                          bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                          topRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                          bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                          topRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                         )
                       ),
                     ),
@@ -425,10 +425,10 @@ class _Ads2PageState extends State<Ads2Page> {
                       decoration: BoxDecoration(
                         color: this.changeColor3,
                         borderRadius: BorderRadius.only(
-                          topLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                          topLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
                           bottomLeft: Radius.circular(MediaQuery.of(context).size.width * this.changeWidth3),
-                          bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                          topRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                          bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                          topRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                         )
                       ),
                     ),
@@ -445,16 +445,18 @@ class _Ads2PageState extends State<Ads2Page> {
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                      bottomLeft: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                      bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
-                      topRight: Radius.circular(MediaQuery.of(context).size.width*0.30),
+                      topLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                      bottomLeft: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                      bottomRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
+                      topRight: Radius.circular(MediaQuery.of(context).size.width*0.50),
                     )
                   ),
                   child: Center(
                     child: Text(
                       "Jamesssss",
                       style: TextStyle(
+                        fontSize: 24.0,
+                        fontWeight: FontWeight.bold,
                         color: this.changeColor1
                       ),
                     ),
